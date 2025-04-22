@@ -1,36 +1,28 @@
-# Funções de probabilidade
+# Probability Functions
 
-Neste desafio vamos praticar nossos conhecimentos em probabilidade e estatística,
-conhecimentos fundamentais para qualquer cientista de dados.
+In this challenge, we will practice our knowledge of probability and statistics, fundamental knowledge for any data scientist.
 
-## Objetivo
+## Objective
 
-O objetivo deste desafio é explorar as principais funções sobre distribuições de probabilidade
-como PDF, CDF e quantis e as relações entre duas das principais distribuições: a normal e a binomial.
+The objective of this challenge is to explore the main functions on probability distributions such as PDF, CDF and quantiles and the relationships between two of the main distributions: normal and binomial.
 
-Para isso, utilizaremos dados artificiais e reais. Como dados reais, exploraremos o _data set_
-[Pulsar Star](https://archive.ics.uci.edu/ml/datasets/HTRU2) disponibilizado pelo Dr. Robert Lyon da Universidade de Manchester.
+To do this, we will use artificial and real data. As real data, we will explore the _data set_ [Pulsar Star](https://archive.ics.uci.edu/ml/datasets/HTRU2) provided by Dr. Robert Lyon from the University of Manchester.
 
-Esse _data set_ consiste de 8 variáveis a respeito de 17898 observações de estrelas. Essas
-estrelas foram consideradas "candidatas" a serem estrelas do tipo pulsar, que têm forte 
-importância para os astrofísicos. Uma nona coluna do _data set_ especifica se a estrela é
-realmente um pulsar (caso positivo, 1) ou não (caso negativo, 0).
+This _data set_ consists of 8 variables regarding 17898 star observations. These stars were considered "candidates" for being pulsar-type stars, which are of great importance to astrophysicists. A ninth column of the _data set_ specifies whether the star is actually a pulsar (if positive, 1) or not (if negative, 0).
 
-## Tópicos
+## Topics
 
-Neste desafios nós vamos explorar:
+In this challenge we will explore:
 
-* Probabilidade
-* Estatística
+* Probability
+* Statistics
 * NumPy
 * SciPy
 * StatsModels
 
-## Requisitos
+## Requirements
 
-Você precisará de Python 3 e pip. É altamente recomendado utilizar ambientes virtuais
-com o virtualenv e o arquivo `requirements.txt` para instalar os pacotes dependências
-do desafio:
+You will need Python 3 and pip. It is highly recommended to use virtual environments with virtualenv and the `requirements.txt` file to install the challenge dependencies packages:
 
 ```bash
 $ pip3 install virtualenv
@@ -48,7 +40,7 @@ Windows
 > pip install -r requirements.txt
 ```
 
-Quando finalizado, você pode desativar o ambiente virtual do virtualenv com:
+When finished, you can deactivate the virtual environment from virtualenv with:
 
 ```bash
 $ deactivate
