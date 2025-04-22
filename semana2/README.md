@@ -1,34 +1,24 @@
-# Pré-processamento de dados em Python
+# Data Preprocessing in Python
 
-Neste desafio vamos praticar a manipulação de dados utilizando
-a biblioteca [pandas](https://pandas.pydata.org/). Manipulação de dados é uma das tarefas
-mais fundamentais para um cientista de dados e o pandas - biblioteca mais popular do Python no assunto - ajuda a tornar essa tarefa mais agradável.
+In this challenge, we will practice data manipulation using the [pandas](https://pandas.pydata.org/) library. Data manipulation is one of the most fundamental tasks for a data scientist and pandas - Python's most popular library on the subject - helps make this task more enjoyable.
 
-## Objetivo
+## Objective
 
-O objetivo deste desafio é extrair algumas informações quantitativas
-que nos ajudem a compreender a natureza dos dados à disposição e ganhar alguns _insights_
-sobre o _data set_.
+The goal of this challenge is to extract some quantitative information that will help us understand the nature of the data at hand and gain some _insights_ into the _data set_.
 
-Para isso, utilizaremos o _data set_ [Black Friday](https://codenation-challenges.s3-us-west-1.amazonaws.com/data-science-0/black_friday.csv)
-disponibilizado originalmente pela [Analytics Vidhya](https://www.analyticsvidhya.com/) e acessível
-publicamente através do [Kaggle](https://www.kaggle.com). O _data set_ traz algumas variáveis relativas à transações comerciais
-realizadas durante a Black Friday em uma determinada loja de varejo. Cada observação é relativa
-a um determinado item comprado por um usuário e um usuário pode ter comprado mais de um item.
+To do this, we will use the [Black Friday](https://codenation-challenges.s3-us-west-1.amazonaws.com/data-science-0/black_friday.csv) _data set_ originally made available by [Analytics Vidhya](https://www.analyticsvidhya.com/) and publicly accessible through [Kaggle](https://www.kaggle.com). The dataset contains some variables related to commercial transactions carried out during Black Friday in a given retail store. Each observation is related to a specific item purchased by a user and a user may have purchased more than one item.
 
-## Tópicos
+## Topics
 
-Neste desafios nós vamos explorar:
+In this challenge we will explore:
 
 * Python
 * Pandas
 * Jupyter notebook
 
-## Requisitos
+## Requirements
 
-Você precisará de Python 3 e pip. É altamente recomendado utilizar ambientes virtuais
-com o virtualenv e o arquivo `requirements.txt` para instalar os pacotes dependências
-do desafio:
+You will need Python 3 and pip. It is highly recommended to use virtual environments with virtualenv and the `requirements.txt` file to install the challenge dependencies:
 
 ```bash
 $ pip3 install virtualenv
@@ -46,7 +36,7 @@ Windows
 > pip install -r requirements.txt
 ```
 
-Quando finalizado, você pode desativar o ambiente virtual do virtualenv com:
+When finished, you can deactivate the virtual environment from virtualenv with:
 
 ```bash
 $ deactivate
