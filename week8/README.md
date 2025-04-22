@@ -1,22 +1,21 @@
-# Descubra as melhores notas de matemática do ENEM 2016
+# Discover the best math scores in ENEM 2016
 
-Você deverá criar um modelo para prever a nota da prova de matemática de quem participou do ENEM 2016. Para isso, usará Python, Pandas, Sklearn e Regression.
+You will need to create a model to predict the math test score of those who participated in ENEM 2016. To do this, you will use Python, Pandas, Sklearn and Regression.
 
+## Topics
 
-## Tópicos
-
-Neste desafio você aprenderá:
+In this challenge you will learn:
 
 - Python
 - Pandas
 - Sklearn
 - Regression
 
-## Requisitos
+## Requirements
 
-Você precisará de python 3.6 (ou superior) e do gerenciador de pacotes pip.
+You will need Python 3.6 (or higher) and the pip package manager.
 
-O recomendado é você utilizar um [ambiente virtual](https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais). Para isto, execute os comandos como no exemplo abaixo:
+It is recommended that you use a [ambiente virtual](https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais). To do this, run the commands as in the example below:
 
 Linux/macos
 
@@ -33,13 +32,13 @@ Windows
     pip install -r requirements.txt
 
 
-Ao terminar o desafio, você pode sair do ambiente criado com o comando `deactivate`
+When you finish the challenge, you can exit the created environment with the `deactivate` command
 
-## Detalhes
+## Details
 
-O contexto do desafio gira em torno dos resultados do ENEM 2016 (disponíveis no arquivo train.csv). Este arquivo, e apenas ele, deve ser utilizado para todos os desafios. Qualquer dúvida a respeito das colunas, consulte o [Dicionário dos Microdados do Enem 2016](https://s3-us-west-1.amazonaws.com/acceleration-assets-highway/data-science/dicionario-de-dados.zip).
+The context of the challenge revolves around the results of ENEM 2016 (available in the file train.csv). This file, and only this file, should be used for all challenges. If you have any questions about the columns, consult the [Enem 2016 Microdata Dictionary](https://s3-us-west-1.amazonaws.com/acceleration-assets-highway/data-science/dicionario-de-dados.zip).
 
-No arquivo test.csv crie um modelo para prever nota da prova de matemática (coluna `NU_NOTA_MT`) de quem participou do ENEM 2016. 
+In the test.csv file, create a model to predict the math test score (column `NU_NOTA_MT`) of those who participated in the ENEM 2016.
 
-Salve sua resposta em um arquivo chamado answer.csv com duas colunas: `NU_INSCRICAO` e `NU_NOTA_MT`.
+Save your answer in a file called answer.csv with two columns: `NU_INSCRICAO` and `NU_NOTA_MT`.
 
