@@ -1,32 +1,24 @@
 # Feature engineering
 
-Neste desafio vamos praticar _feature engineering_, a arte de processar
-variáveis do _data set_ a fim de torná-las mais adequadas aos algoritmos
-de ML e produzir melhores resultados.
+In this challenge, we will practice _feature engineering_, the art of processing _data set_ variables in order to make them more suitable for ML algorithms and produce better results.
 
-## Objetivo
+## Objective
 
-O objetivo deste desafio é adquirir conhecimento e prática nas ferramentas
-mais usuais de engenharia de variáveis. Com o domínio apropriado das
-técnicas básicas, como _one-hot encoding_, normalização e padroniação,
-o analista está mais bem preparado para conduzir uma etapa de preprocessamento
-dos dados que traga bons resultados da aplicação dos algoritmos de ML.
+The objective of this challenge is to acquire knowledge and practice in the most common variable engineering tools. With proper mastery of basic techniques, such as _one-hot encoding_, normalization and standardization, the analyst is better prepared to conduct a data preprocessing stage that brings good results from the application of ML algorithms.
 
-Para isso, vamos contar com o _data set_ [Countries of the world](https://www.kaggle.com/fernandol/countries-of-the-world)
-que contém 20 variáveis, como população, área costeira e tamanho dos setores de produção, de 227 países.
+To do this, we will use the _data set_ [Countries of the world](https://www.kaggle.com/fernandol/countries-of-the-world) which contains 20 variables, such as population, coastal area and size of production sectors, from 227 countries.
 
-## Tópicos
+## Topics
 
-Neste desafios nós vamos explorar:
+In this challenge we will explore:
 
 * Feature engineering
-* Processamento de texto
+* Text processing
 
-## Requisitos
+## Requirements
 
-Você precisará de Python 3 e pip. É altamente recomendado utilizar ambientes virtuais
-com o virtualenv e o arquivo `requirements.txt` para instalar os pacotes dependências
-do desafio:
+You will need Python 3 and pip. It is highly recommended to use virtual environments with virtualenv and the `requirements.txt` file to install the challenge dependencies
+packages:
 
 ```bash
 $ pip3 install virtualenv
@@ -44,7 +36,7 @@ Windows
 > pip install -r requirements.txt
 ```
 
-Quando finalizado, você pode desativar o ambiente virtual do virtualenv com:
+When finished, you can deactivate the virtual environment from virtualenv with:
 
 ```bash
 $ deactivate
