@@ -1,31 +1,25 @@
-# Redução de dimensionalidade e seleção de
+# Dimensionality reduction and feature selection
 
-Neste desafio vamos praticar redução de dimensionalidade com PCA e seleção
-de variáveis com RFE.
+In this challenge, we will practice dimensionality reduction with PCA and variable selection with RFE.
 
-## Objetivo
+## Objective
 
-O objetivo deste desafio é explorar sobre como funciona o PCA e como podemos
-obter _data sets_ de dimensões mais baixas através dele.
+The objective of this challenge is to explore how PCA works and how we can obtain lower-dimensional _data sets_ through it.
 
-Para isso, vamos contar com o _data set_ [FIFA 2019](https://www.kaggle.com/karangadiya/fifa19)
-que contém originalmente 89 variáveis com diversos atributos de mais de 18 mil jogadores
-do _game_ FIFA 2019.
+To do this, we will use the [FIFA 2019](https://www.kaggle.com/karangadiya/fifa19) _data set_, which originally contains 89 variables with various attributes of more than 18 thousand players from the FIFA 2019 game.
 
-## Tópicos
+## Topics
 
-Neste desafios nós vamos explorar:
+In this challenge, we will explore:
 
-* Redução de dimensionalidade
+* Dimensionality reduction
 * PCA
-* Seleção de variáveis
+* Variable selection
 * RFE
 
-## Requisitos
+## Requirements
 
-Você precisará de Python 3 e pip. É altamente recomendado utilizar ambientes virtuais
-com o virtualenv e o arquivo `requirements.txt` para instalar os pacotes dependências
-do desafio:
+You will need Python 3 and pip. It is highly recommended to use virtual environments with virtualenv and the `requirements.txt` file to install the challenge dependencies:
 
 ```bash
 $ pip3 install virtualenv
@@ -43,7 +37,7 @@ Windows
 > pip install -r requirements.txt
 ```
 
-Quando finalizado, você pode desativar o ambiente virtual do virtualenv com:
+When finished, you can deactivate the virtual environment from virtualenv with:
 
 ```bash
 $ deactivate
