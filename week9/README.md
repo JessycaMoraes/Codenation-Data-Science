@@ -1,10 +1,10 @@
-# Descubra quem fez o ENEM 2016 apenas para treino
+# Find out who took the ENEM 2016 just for practice
 
-Neste desafio deverá descobrir quais estudantes estão fazendo a prova apenas para treino.
+In this challenge you must find out which students are taking the test just for practice.
 
-## Tópicos
+## Topics
 
-Neste desafio você aprenderá:
+In this challenge you will learn:
 
 - Python
 - Pandas
@@ -12,18 +12,18 @@ Neste desafio você aprenderá:
 - Regression
 - Classification
 
-## Requisitos
+## Requirements
 
-Você precisará de python 3.6 (ou superior) e do gerenciador de pacotes pip.
+You will need Python 3.6 (or higher) and the pip package manager.
 
-Para instalar os requisitos, execute o comando como no exemplo abaixo:
+To install the requirements, run the command as in the example below:
 
     pip install -r requirements.txt
 
 ## Detalhes
 
-O contexto do desafio gira em torno dos resultados do ENEM 2016 (disponíveis no arquivo train.csv). Este arquivo, e apenas ele, deve ser utilizado para todos os desafios. Qualquer dúvida a respeito das colunas, consulte o [Dicionário dos Microdados do Enem 2016](https://s3-us-west-1.amazonaws.com/acceleration-assets-highway/data-science/dicionario-de-dados.zip).
+The context of the challenge revolves around the ENEM 2016 results (available in the train.csv file). This file, and only this file, should be used for all challenges. If you have any questions about the columns, please consult the [Enem 2016 Microdata Dictionary](https://s3-us-west-1.amazonaws.com/acceleration-assets-highway/data-science/dicionario-de-dados.zip).
 
-Alguns estudantes decidem realizar prova do ENEM de forma precoce, como um teste (coluna IN_TREINEIRO). Neste desafio, você deve criar um modelo de classificação binária para inferir a mesma. Os resultados possíveis da sua resposta devem ser “0” ou “1”.
+Some students decide to take the ENEM exam early, as a test (IN_TREINEIRO column). In this challenge, you must create a binary classification model to infer the same. The possible results of your answer must be “0” or “1”.
 
-Salve sua resposta em um arquivo chamado answer.csv com duas colunas: `NU_INSCRICAO` e `IN_TREINEIRO`.
+Save your answer in a file called answer.csv with two columns: `NU_INSCRICAO` and `IN_TREINEIRO`.
